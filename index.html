@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Jacky's CV Website</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
@@ -39,12 +40,16 @@
   <section id="frontPage">
     <div class="Introduction hvr-float-shadow">
       <h1 class="introlines name">Hi, I'm Jacky</h1>
-      <h3 class="introlines profession">A Software Engineer and Student</h3>
+      <div class="dezFP">
+          <h3 class="introlines profession">A Software Engineer and Student</h3>
+      </div>
     </div>
   </section>
 
   <section id="me">
-    <img class="profile_pic hvr-glow" src="images/linkedinPic.png" alt="">
+    <div class="profilemover">
+      <img class="profile_pic hvr-glow" src="images/linkedinPic.png" alt="">
+    </div>
     <div class="aboutme">
       <p class="my-introduction">
         Hi, My name is Jacky Chen. I am currently an undergrad studying Computer Science
@@ -109,7 +114,7 @@
     <div class="project-rs-align">
       <div class="row project-row">
         <div class="col-lg-3 col-md-6">
-          <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+          <div class="hvr-grow-shadow card c1" style="width: 300px; height:450px;">
             <img src="images\connect4.jfif" class="card-img-top size" alt="...">
             <div class="card-body">
               <h5 class="card-title">Connect 4 Game</h5>
@@ -121,7 +126,7 @@
         </div>
 
         <div class=" project col-lg-3 col-md-6">
-          <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+          <div class="hvr-grow-shadow card c2" style="width: 300px; height:450px;">
             <img src="images\mozart.jfif" class="card-img-top size2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Mozart Musical Dice Game</h5>
@@ -136,7 +141,7 @@
         <!-- placeholder -->
         <div class="middle-projects-bj">
           <div class="project col-lg-3 col-md-6">
-            <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+            <div class="hvr-grow-shadow card c3" style="width: 300px; height:450px;">
               <img src="images\blackjack.jfif" class="card-img-top size3" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Black Jack Simulator</h5>
@@ -156,7 +161,7 @@
         <div class="e col-lg-4">
             <img  class = "fxcollaborative comp-img" src="images\fxc.jpg" alt="">
             <div class="exp-body">
-              <h3>FxCollaborative: CTE Internship</h3>
+              <h3 class = "h31">FxCollaborative: CTE Internship</h3>
               <p class = "fxc comp-description">
                 As part of the CTE Internship program at my school, I held the position
                 of Engineering Intern at FxCollaborative. Me and a couple other interns where
@@ -167,7 +172,7 @@
         <div class="e col-lg-4">
             <img class = "dbgrant comp-img"  src="images\dbg.gif" alt="">
             <div class="db-body">
-              <h3>DB Grant Associates Inc. Brooklyn Branch</h3>
+              <h3 class = "h32">DB Grant Associates Inc. Brooklyn Branch</h3>
               <div class="containerdbg">
                 <p class = "dbg comp-description">
                   I was brought in as an It intern under IT lead Mark Schnidman. We worked to
@@ -179,9 +184,11 @@
             </div>
         </div>
         <div class="e col-lg-4">
+          <div class="mipic">
             <img  class = "minyivy comp-img" src="images\mi.png" alt="">
+          </div>
             <div class="mi-body">
-              <h3>Miny Ivy Tutoring Center</h3>
+              <h3 class = "h33">Miny Ivy Tutoring Center</h3>
               <p class = "mit comp-description">
                 I was once a student here at the tutoring center.
                 After benefiting from this program, i decided to give back and
@@ -208,17 +215,17 @@
     </div>
     <div class="copyright-body">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="mail">
             <a href="mailto:jacky.chen.6@stonybrook.edu?subject=feedback"><i class="fas fa-envelope-open-text fa-2x m-icon" style = "color:black;"></i></a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="linkedin">
               <a href="https://www.linkedin.com/in/jacky-chen-084a6b16b/"><i class="fab fa-linkedin-in fa-2x l-icon" style = "color:black;"></i></a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="github">
             <a href="https://github.com/hfbgk321"><i class="fab fa-github-alt fa-2x g-icon" style = "color:black;"></i></a>
           </div>
