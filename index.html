@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jacky's CV Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light structure">
+      <a class="navbar-brand navfont" href="http://jacky-chen.com/"><span class = "navi-content">Jacky Chen</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><span class = "navi-content">Home</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html"><span class = "navi-content">Projects</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="cv.html"><span class = "navi-content">CV</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="frontPage">
+    <div class="Introduction hvr-float-shadow">
+      <h1 class="introlines name">Hi, I'm Jacky</h1>
+      <h3 class="introlines profession">A Software Engineer and Student</h3>
+    </div>
+  </section>
+
+  <section id="me">
+    <img class="profile_pic hvr-glow" src="images/linkedinPic.png" alt="">
+    <div class="aboutme">
+      <p class="my-introduction">
+        Hi, My name is Jacky Chen. I am currently an undergrad studying Computer Science
+        at Stony Brook University. Along with being a full time student, I am also
+        an avid learner, especially when it comes to software engineering.
+      </p>
+      <p class="my-introduction">
+        My journey began at Brooklyn Technical High School, where I attended an
+        introduction to CS course. There my teachers, Mr. Folwell and Mr.Levin
+        introduced me to the endless possibilities that coding brought. Throughout my academic career,
+        I can say that I have truely fallen for the process and creativity
+        brought about by coding. The ability to create something that can be so impactful to people
+        without much except the passion and motivation to learn really resignated with me.
+
+      </p>
+      <p class="my-introduction">
+        This passion of mine has peaked these past few months as the hunt for
+        real-world experience in the tech industry fired up. Despite having already
+        worked at multiple tech firms, I know that in order for me to be the best Software
+        engineer that I can be, the learning must never stop. That being said, the hunt
+        for experience willl also never stop.
+      </p>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h1 class="interestHeading">INTERESTS</h1>
+    <div class="row">
+      <div class="hvr-glow col-lg-4 software-engineering">
+        <i class="icon fas fa-laptop-code fa-4x"></i>
+        <h3>Software Engineering</h3>
+        <p class="interest-para">
+          From the "hello world" program that brought about
+          my interest in computer science, to the multiple full fledged
+          projects that ive created my freshman year at college, Ive always enjoyed
+          creating applications for the sake of testing my limits.
+        </p>
+      </div>
+      <div class="hvr-glow col-lg-4 App-Development">
+        <i class="icon fab fa-app-store-ios fa-5x"></i>
+        <h3>App Development</h3>
+        <p class="interest-para">
+          Ive recently became interested in a technology called Flutter.
+          It was created by Google with the capability of creating applications
+          compatible with both the android and ios enviroment just by using the dart
+          programming language.
+        </p>
+      </div>
+      <div class="hvr-glow col-lg-4 Web-Development">
+        <i class="icon far fa-window-maximize fa-5x"></i>
+        <h3>Web Development</h3>
+        <p class="interest-para">
+          Ive grown particularly interested in the creating and designing of websites.
+          Ive grown pretty good with the frontend aspect of Web development and am
+          current learning the backend part starting from node.js, SQL and MongoDB.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="Projects">
+    <h1 class="projects-heading">PROJECTS</h1>
+    <div class="project-rs-align">
+      <div class="row project-row">
+        <div class="col-lg-3 col-md-6">
+          <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+            <img src="images\connect4.jfif" class="card-img-top size" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Connect 4 Game</h5>
+              <p class="card-text">Created a simulation of the classic Connect 4 game
+                using Java classes. Includes win factor algorithmns and exceptions.</p>
+              <a href="https://github.com/hfbgk321/Connect4" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class=" project col-lg-3 col-md-6">
+          <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+            <img src="images\mozart.jfif" class="card-img-top size2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mozart Musical Dice Game</h5>
+              <p class="card-text">Used python libraries like random
+                and simpleaudio to randomly generate a song using
+                Mozart's dice game and play it. </p>
+              <a href="https://github.com/hfbgk321/MusicalDice" class="btn btn-primary">Github Link</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- placeholder -->
+        <div class="middle-projects-bj">
+          <div class="project col-lg-3 col-md-6">
+            <div class="hvr-grow-shadow card" style="width: 300px; height:450px;">
+              <img src="images\blackjack.jfif" class="card-img-top size3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Jack Simulator</h5>
+                <p class="card-text">Created a simulation of the Blackjack game using python. Includes a dealer and displays the
+                  winner through an algorithmn that determines the win factor</p>
+                <a href="https://github.com/hfbgk321/blackjacksimulator" class="btn btn-primary">Github Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="positioning myButton">View More</a>
+  </section>
+  <section id="experience">
+      <h1 class ="experience-heading">Experiences</h1>
+      <div class="row">
+        <div class="e col-lg-4">
+            <img  class = "fxcollaborative comp-img" src="images\fxc.jpg" alt="">
+            <div class="exp-body">
+              <h3>FxCollaborative: CTE Internship</h3>
+              <p class = "fxc comp-description">
+                As part of the CTE Internship program at my school, I held the position
+                of Engineering Intern at FxCollaborative. Me and a couple other interns where
+                tasked to create a plan to contruct a school in Yabucoa, Puerto Rico.
+              </p>
+            </div>
+        </div>
+        <div class="e col-lg-4">
+            <img class = "dbgrant comp-img"  src="images\dbg.gif" alt="">
+            <div class="db-body">
+              <h3>DB Grant Associates Inc. Brooklyn Branch</h3>
+              <div class="containerdbg">
+                <p class = "dbg comp-description">
+                  I was brought in as an It intern under IT lead Mark Schnidman. We worked to
+                  to solve technical issues at their brooklyn branch. We fixed office equipment,
+                  replaced their old hardware by bidding for new equipment, and even did some rewiring
+                   for their office.
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="e col-lg-4">
+            <img  class = "minyivy comp-img" src="images\mi.png" alt="">
+            <div class="mi-body">
+              <h3>Miny Ivy Tutoring Center</h3>
+              <p class = "mit comp-description">
+                I was once a student here at the tutoring center.
+                After benefiting from this program, i decided to give back and
+                work as a tutor here. I help elementary and middle school student with
+                their homework. I also help them with subjects like math, english, and science.
+              </p>
+            </div>
+        </div>
+      </div>
+      <a href="#" class="positioning2 myButton">View More</a>
+  </section>
+
+  <section id = "ending">
+    <div class="ending-body">
+      <h2 class = "ending-content">Want To Hire Me ? Maybe Get In Touch?</h2>
+      <h2 class = "ending-content">Contact Me !</h2>
+      <h2 class = "ending-content">We Will Be In Touch Shortly</h2>
+      <a href="#" class="positioning3 myButton">Contact Me</a>
+    </div>
+  </section>
+  <section id = "copyright">
+    <div class="rocket">
+      <a href=""><i class="fab fa-fly fa-2x rocket-icon" style = "color:black;"></i></a>
+    </div>
+    <div class="copyright-body">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="mail">
+            <a href="mailto:jacky.chen.6@stonybrook.edu?subject=feedback"><i class="fas fa-envelope-open-text fa-2x m-icon" style = "color:black;"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="linkedin">
+              <a href="https://www.linkedin.com/in/jacky-chen-084a6b16b/"><i class="fab fa-linkedin-in fa-2x l-icon" style = "color:black;"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="github">
+            <a href="https://github.com/hfbgk321"><i class="fab fa-github-alt fa-2x g-icon" style = "color:black;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class = "copyright-name">Copyright © Jacky Chen 2020</p>
+    </section>
+
+  <script src="https://kit.fontawesome.com/59ec66d70f.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
